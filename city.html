@@ -1,0 +1,233 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eojin Lim - City</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #efede5;
+      color: #573f33;
+      line-height: 1.7;
+    }
+
+    header {
+      background-color: #5a3b2d;
+      color: #f4d78d;
+      padding: 28px 36px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .site-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #f4d78d;
+      font-size: 1.1rem;
+    }
+
+    nav a.active {
+      color: #8fb4ff;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 70px 24px 100px;
+    }
+
+    .image-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .image-row img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      display: block;
+      border: 3px solid #d8d1c5;
+    }
+
+    .intro {
+      font-size: 1.18rem;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin: 50px 0 30px;
+    }
+
+    .activities {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 10px;
+    }
+
+    .activity {
+      border: 2px solid #c9c1b6;
+      padding: 28px 20px;
+      text-align: center;
+      background: rgba(255,255,255,0.15);
+    }
+
+    .activity h2 {
+      font-size: 1.7rem;
+      margin-bottom: 12px;
+    }
+
+    .activity p {
+      font-size: 1.03rem;
+    }
+
+    .next-link {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+    }
+
+    .next-link a {
+      display: inline-block;
+      padding: 15px 40px;
+      border: 3px solid #573f33;
+      text-decoration: none;
+      color: #573f33;
+      font-size: 1.7rem;
+      font-weight: bold;
+    }
+
+    .next-link a:hover {
+      background-color: #573f33;
+      color: #efede5;
+      transition: 0.3s;
+    }
+
+    @media (max-width: 900px) {
+      .image-row,
+      .activities {
+        grid-template-columns: 1fr;
+      }
+
+      .image-row img {
+        height: 240px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .site-title {
+        font-size: 1.8rem;
+      }
+
+      .intro {
+        font-size: 1.05rem;
+      }
+
+      .section-title {
+        font-size: 1.6rem;
+      }
+
+      .activity h2 {
+        font-size: 1.4rem;
+      }
+
+      .next-link a {
+        font-size: 1.3rem;
+        padding: 12px 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title">Eojin Lim</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="songs.html">Songs</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="city.html" class="active">City</a></li>
+        <li><a href="app.html">App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="image-row">
+      <img src="https://i.pinimg.com/736x/21/8f/d7/218fd773e2da169ff6c3f725adcd7a0f.jpg" alt="Seville flower" />
+      <img src="https://i.pinimg.com/1200x/7f/a6/23/7fa623712cdcdc24af52c11b1e5b9775.jpg" alt="Seville orange" />
+      <img src="https://i.pinimg.com/736x/4a/f2/48/4af24854a1851bcba5033521516e3b98.jpg" alt="Seville sunset" />
+    </section>
+
+    <section>
+      <p class="intro">
+        Seville is captivating for its rich history and stunning architecture. The city is home to iconic landmarks such as the Seville Cathedral and the Alcázar, which reflect a blend of Moorish and Christian influences. Walking through its narrow streets feels like stepping back in time, surrounded by centuries of cultural heritage.
+      </p>
+
+      <p class="intro">
+      Another charm of Seville lies in its vibrant atmosphere and lively traditions. The city is famous for flamenco, where music and dance express deep emotion and passion. Its warm climate, outdoor cafes, and festive spirit make everyday life feel energetic and full of life.
+      </p>
+    </section>
+
+    <h1 class="section-title">Things to enjoy in Seville!</h1>
+
+    <section class="activities">
+      <div class="activity">
+        <h2>Boating at Plaza de España</h2>
+        <p>
+          You can rent a small boat and paddle along the canal surrounding the beautiful Plaza de España. It’s a relaxing way to enjoy the scenery while taking in the stunning architecture from the water.
+        </p>
+      </div>
+
+      <div class="activity">
+        <h2>Seeing the Orange Trees in Seville</h2>
+        <p>
+          Seville’s streets are lined with orange trees, which are a distinctive symbol of the city. Walking among them, especially in spring, offers a refreshing and uniquely local experience with their bright colors and subtle fragrance.
+        </p>
+      </div>
+
+      <div class="activity">
+        <h2>Enjoying Traditional Spanish Food</h2>
+        <p>
+         Seville offers a wide variety of delicious traditional Spanish dishes, from tapas to paella. Exploring local restaurants and trying different flavors is one of the best ways to experience the city’s culture.
+        </p>
+      </div>
+    </section>
+
+    <div class="next-link">
+      <a href="app.html">Next: Apps</a>
+    </div>
+  </main>
+</body>
+</html>

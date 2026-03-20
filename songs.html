@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eojin Lim - Songs</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #efede5;
+      color: #4b3126;
+      line-height: 1.7;
+    }
+
+    header {
+      background-color: #5a3b2d;
+      color: #f4d78d;
+      padding: 28px 36px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .site-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 36px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #f4d78d;
+      font-size: 1.1rem;
+    }
+
+    nav a.active {
+      color: #8fb4ff;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 80px 24px 100px;
+    }
+
+    .intro {
+      font-size: 1.2rem;
+      margin-bottom: 56px;
+      text-align: center;
+    }
+
+    .song {
+      text-align: center;
+      margin-bottom: 56px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(75, 49, 38, 0.15);
+    }
+
+    .song h2 {
+      font-size: 2rem;
+      margin-bottom: 18px;
+      color: #4b3126;
+    }
+
+    .song p {
+      font-size: 1.08rem;
+      margin-bottom: 14px;
+    }
+
+   .next-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+ .next-link a {
+      display: inline-block;
+      color: #573f33;
+      font-weight: bold;
+      border: 2px solid #573f33;
+      padding: 10px 18px;
+      text-decoration: none;
+    }
+   .next-link a:hover {
+      opacity: 0.75;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        gap: 18px;
+      }
+
+      .site-title {
+        font-size: 1.8rem;
+      }
+
+      .song h2 {
+        font-size: 1.6rem;
+      }
+   iframe {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title">Eojin Lim</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="songs.html" class="active">Songs</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="app.html">App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>
+        These are my two favorite songs!
+      </p>
+    </section>
+
+    <section class="song">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bn_JFsPwUzE?si=niOOgDUxaC_W3k8R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h2>Isn't This A Lovely Day? - Ella & Louis</h2>
+      <p>
+       “Isn't This a Lovely Day?” by Ella Fitzgerald and Louis Armstrong is a classic jazz duet known for its warm, playful chemistry and smooth vocal interplay.
+The song captures a charming moment of unexpected romance, turning a rainy day into something joyful and memorable.
+      </p>
+      <p>
+       I chose this song because the harmony between Ella Fitzgerald and Louis Armstrong feels warm and comforting every time I listen to it.
+It also reminds me that even an ordinary moment, like a rainy day, can become something special.
+      </p>
+    </section>
+
+    <section class="song">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/drnBMAEA3AM?si=lJTn7xahs6MePy26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      <h2>Do-Re-Mi - Julie Andrews</h2>
+      <p>
+       “Do-Re-Mi” from The Sound of Music, performed by Julie Andrews, is a cheerful and educational song that introduces the basics of musical scales.
+With its simple melody and playful lyrics, it makes learning music feel fun and accessible.
+The song’s uplifting tone and memorable structure have made it one of the most iconic songs in musical history.
+      </p>
+      <p>
+        I recommend this song because it is both enjoyable and easy to follow, even for people who are new to music.
+It also brings a sense of positivity and nostalgia that makes it enjoyable for listeners of all ages.
+      </p>
+
+      <div class="next-link">
+        <a href="books.html">Next: Books</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

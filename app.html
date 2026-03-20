@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eojin Lim - App</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #efede5;
+      color: #573f33;
+      line-height: 1.7;
+    }
+
+    header {
+      background-color: #5a3b2d;
+      color: #f4d78d;
+      padding: 28px 36px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .site-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #f4d78d;
+      font-size: 1.1rem;
+    }
+
+    nav a.active {
+      color: #8fb4ff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 70px 24px 100px;
+      text-align: center;
+    }
+
+    .app-image {
+      margin-bottom: 40px;
+    }
+
+    .app-image img {
+      width: 320px;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border: 3px solid #d8d1c5;
+    }
+
+    .app-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 24px;
+    }
+
+    .app-section p {
+      font-size: 1.12rem;
+      margin-bottom: 20px;
+    }
+
+    .next-link {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .next-link a {
+      display: inline-block;
+      padding: 15px 40px;
+      border: 3px solid #573f33;
+      text-decoration: none;
+      color: #573f33;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .next-link a:hover {
+      background-color: #573f33;
+      color: #efede5;
+      transition: 0.3s;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .site-title {
+        font-size: 1.8rem;
+      }
+
+      .app-section h1 {
+        font-size: 2rem;
+      }
+
+      .app-section p {
+        font-size: 1rem;
+      }
+
+      .next-link a {
+        font-size: 1.2rem;
+        padding: 12px 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title">Eojin Lim - App</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="songs.html">Songs</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="app.html" class="active">App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="app-image">
+      <img src="https://mblogthumb-phinf.pstatic.net/MjAyNTAyMjdfMTg1/MDAxNzQwNjM1MjE5MjI4.SiQ8klRy5rehwIcb3x_0Y88oJwLjenXMRF_yaTV2xawg.RNwGwArGMdjtZuRaA6gr5A1FQvViVKnufpwRuzonxtcg.JPEG/KakaoTalk_20250227_140745097.jpg?type=w800" alt="heyring app image" />
+    </section>
+
+    <section class="app-section">
+      <h1>Heyring</h1>
+
+      <p>
+       HeyRing is an AI-powered phone-based English conversation app that helps users practice speaking in real time. It simulates natural conversations through voice calls, allowing learners to improve their fluency and confidence. The app provides instant feedback and adapts to the user’s level for more effective learning.
+      </p>
+
+      <p>
+        I recommend HeyRing because it offers a convenient and realistic way to practice speaking anytime, anywhere. It is especially useful for building confidence in real-life conversations without the pressure of talking to a person.
+      </p>
+
+      <div class="next-link">
+        <a href="index.html">Next: Home</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

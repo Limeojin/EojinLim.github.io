@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eojin Lim - Books</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #efede5;
+      color: #573f33;
+      line-height: 1.7;
+    }
+
+    header {
+      background-color: #5a3b2d;
+      color: #f4d78d;
+      padding: 28px 36px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .site-title {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #f4d78d;
+      font-size: 1.1rem;
+    }
+
+    nav a.active {
+      color: #8fb4ff;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 70px 24px 100px;
+    }
+
+    .book-cover {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .book-cover img {
+      width: 320px;
+      max-width: 100%;
+      height: auto;
+      border: 4px solid #d8d1c5;
+    }
+
+    .book-section h1 {
+      font-size: 2.8rem;
+      margin-bottom: 28px;
+      text-align: center;
+    }
+
+    .book-section p {
+      font-size: 1.18rem;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .next-link {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .next-link a {
+      display: inline-block;
+      padding: 15px 40px;
+      border: 3px solid #573f33;
+      text-decoration: none;
+      color: #573f33;
+      font-size: 1.7rem;
+      font-weight: bold;
+    }
+
+    .next-link a:hover {
+      background-color: #573f33;
+      color: #efede5;
+      transition: 0.3s;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .site-title {
+        font-size: 1.8rem;
+      }
+
+      .book-section h1 {
+        font-size: 2.1rem;
+      }
+
+      .book-section p {
+        font-size: 1.05rem;
+      }
+
+      .next-link a {
+        font-size: 1.3rem;
+        padding: 12px 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title">Eojin Lim</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="songs.html">Songs</a></li>
+        <li><a href="books.html" class="active">Books</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="app.html">App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="book-cover">
+      <img src="https://minumsa.minumsa.com/wp-content/uploads/bookcover/284-%EC%A3%84%EC%99%80%EB%B2%8C1_%ED%91%9C1-500x851.jpg" alt="Crime and Punishment book cover" />
+    </section>
+
+    <section class="book-section">
+      <h1>Crime and Punishment (1867)</h1>
+
+      <p>
+        Crime and Punishment by Fyodor Dostoevsky is a psychological novel that follows Rodion Raskolnikov, a poor student who commits a murder and struggles with guilt.
+The story explores his inner conflict as he tries to justify his actions while being consumed by anxiety and remorse.
+Through his journey, the novel examines themes of morality, justice, and redemption.
+      </p>
+
+      <p>
+        I recommend this book because it offers deep insight into human psychology and moral dilemmas.
+It also challenges readers to reflect on the consequences of their actions and the meaning of true justice.
+      </p>
+
+      <div class="next-link">
+        <a href="city.html">Next: City</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
